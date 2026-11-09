@@ -1,0 +1,78 @@
+# 03 · 前沿进展（当前最热与最新）
+
+> **本层目标**：深入理解当前最前沿的"推理模型"范式，以 **DeepSeek R1** 为锚点往回/往外追溯因果；并学会**理性速读**最新进展。本层是整套路线的核心锚点。
+
+---
+
+## 3.1 编程基础：本地与低成本实验
+
+**目标**：用最低门槛跑起模型，亲手验证"前沿"不是黑箱。
+
+**核心要点**
+- **Ollama / llama.cpp**：本地跑开源模型，零 API 费用；理解量化（为何小模型能塞进内存）。
+- **开源权重的意义**：可本地部署、可修改、可复现——研究者的关键自由度。
+- **API 生态**：DeepSeek / OpenAI / Qwen 等开放接口，按需取用。
+
+**精选资源**
+- 🔴 [Ollama](https://ollama.com/) — 第一次跑本地 LLM。出处：Ollama。
+- 🔴 [llama.cpp](https://github.com/ggml-org/llama.cpp) — 理解量化与推理引擎。出处：ggml-org（MIT）。
+- 🟢 实践：用 Ollama 在本地跑一个 7B 模型，问它一个专业问题，对比云端大模型。
+
+**里程碑自测**
+- [ ] 能在本地跑通一个小模型并理解"量化"的含义。
+
+---
+
+## 3.2 结构演进：推理模型范式（★ 锚点：DeepSeek R1）
+
+**目标**：以 DeepSeek R1 为终点，**往回追溯因果链**，理解每个技术为何出现。
+
+**核心要点**
+- **前 Transformer 时代**：RNN/LSTM 的**串行瓶颈**（逐词读、长程依赖衰减、无法并行）→ 催生注意力。
+- **2017 拐点**：Transformer 用"全序列并行 + 注意力"解决并行与长程依赖。
+- **缩放定律（Scaling Laws）**：更大模型 + 更多数据 + 更多算力 ≈ 可预测的更强，"少样本/质变"。
+- **DeepSeek R1 深解（本层核心）**：
+  - **MoE（混合专家）**：总参数 671B，每 token 仅激活 ~37B（Top-k 稀疏路由）——"大而不贵"。
+  - **RL + SFT 训练**：冷启动（少量 CoT 范例） → 强化学习迭代（过程奖励） → 有用/无害对齐。
+  - **思维链（CoT）**：显式分步推理，提升可信度，尤其适合高风险场景。
+  - **开源权重意义**：成本与可及性的拐点。
+- **推理模型家族**：OpenAI o1/o3 类、DeepSeek R1——"先想再答"成为新范式。
+
+**精选资源**
+- 🔴 [DeepSeek-R1 官方论文（arXiv:2501.12948）](https://arxiv.org/abs/2501.12948) — 读摘要与训练流程图的"根本区别"。出处：DeepSeek。
+- 🔴 [What Is DeepSeek-R1?（Built In）](https://builtin.com/artificial-intelligence/deepseek-r1) — MoE/RL/SFT/CoT 通俗准确综述 + 基准对比。出处：Built In。
+- 🔴 [DeepSeek-R1 架构解析（百度智能云）](https://cloud.baidu.com/article/4953201) — 中文图解 MoE 与 RL 流程。出处：百度智能云。
+- 🟡 [The transformer era（miraheze）](https://ai.miraheze.org/wiki/Learning_path:_The_transformer_era) — 从 LSTM 到 MoE 的概念链。出处：AI Wiki。
+- 🟢 实践：读 R1 论文图 1（训练流程），用一句话总结"它和传统微调模型的根本区别"。
+
+**里程碑自测**
+- [ ] 能解释"为什么 Transformer 取代 RNN"（并行 + 长程依赖）。
+- [ ] 能讲清 R1 的 MoE（671B/37B）、RL+SFT、CoT，并说明"为何是分水岭"。
+- [ ] 能说清缩放定律的含义与"少样本/质变"。
+
+---
+
+## 3.3 用途扩展：最新应用形态 + 进展速读
+
+**目标**：了解当前最热的应用形态，并掌握**不被 PR 稿带偏**的速读方法。
+
+**核心要点**
+- **最新应用形态**：深度研究 Agent（自动搜+读+写报告）、AI 编程（Copilot 类）、多模态生成（图文音）、行业智能体。
+- **进展速读框架**：
+  - **信息源分级**：一手（论文/模型卡/基准）> 二手（技术博客/视频）> PR（厂商稿）。
+  - **交叉验证**：看**独立评测**（如 METR、LiveBench）vs 厂商自报；看任务适配（通用分高 ≠ 你的任务高）；看成本/许可/可复现。
+  - **真实边界**：幻觉未消除、长推理延迟高、工具调用会出错、中英文/专业能力不均。
+- **权威榜单（自行查阅）**：[Chatbot Arena](https://lmarena.ai/)（盲测）、[OpenCompass](https://opencompass.org.cn/)（多维评测）、[LiveBench](https://livebench.ai/)（防刷榜）。
+
+**精选资源**
+- 🔴 [Awesome-LLM（XiaomingX，含时间轴与榜单）](https://github.com/XiaomingX/awesome-llm) — 演进时间轴与权威榜单入口。出处：XiaomingX（引用，注明出处）。
+- 🔴 [Awesome-LLM-Learning（ifLabX）](https://github.com/ifLabX/Awesome-LLM-Learning) — 系统化 LLM 资源清单。出处：ifLabX。
+- 🟡 [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) — 论文/工具/框架一站索引。出处：Hannibal046。
+
+**里程碑自测**
+- [ ] 能列出常用"一手/二手/PR"三级信息源。
+- [ ] 拿到"某模型超越 X"的声称，能说出 ≥2 个需核验的点。
+
+---
+
+**本层小结**：完成 03，你已能以 DeepSeek R1 为锚点理解前沿范式，并具备"理性速读新进展"的能力。下一步进入 04，望向未来。
