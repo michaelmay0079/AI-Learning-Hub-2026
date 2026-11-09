@@ -91,5 +91,9 @@
 | [02 · 图解 Transformer](cn-notes/02-图解Transformer-译校.md) | The Illustrated Transformer + 3Blue1Brown | Jay Alammar / 3Blue1Brown |
 | [03 · DeepSeek-R1 解析](cn-notes/03-DeepSeek-R1解析-译校.md) | What Is DeepSeek-R1? + 百度架构解析 | Built In / 百度智能云 |
 | [04 · Transformer 时代路径](cn-notes/04-Transformer时代路径-译校.md) | Learning path: The transformer era | AI Wiki |
+| [05 · 3Blue1Brown 注意力与 GPT](cn-notes/05-3Blue1Brown注意力与GPT-译校.md) | Attention in transformers / But what is a GPT? | 3Blue1Brown |
+| [06 · Karpathy LLM 导论](cn-notes/06-Karpathy-LLM导论-译校.md) | Intro to Large Language Models | A. Karpathy |
+| [07 · Attention Is All You Need 精要](cn-notes/07-AttentionIsAllYouNeed-精要-译校.md) | Attention Is All You Need (arXiv:1706.03762) | Vaswani et al. |
+| [08 · Awesome 清单导读](cn-notes/08-Awesome清单导读-译校.md) | Hannibal046 / XiaomingX / ifLabX / josephmisiti 等 | 各原作者 |
 
 > 译校版为学习向提炼/改编，非逐字翻译；版权归原作者。
