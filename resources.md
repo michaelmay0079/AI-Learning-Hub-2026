@@ -114,7 +114,7 @@
 |---|---|---|---|
 | 获取模型 | [Hugging Face Hub](https://huggingface.co/models) | 全球最大权重仓库（GGUF / Safetensors） | Hugging Face |
 | 获取模型 | [ModelScope 魔搭（🟢 中文源）](https://modelscope.cn/models) | 阿里系，大陆直连友好 | 阿里达摩院 |
-| 获取模型 | [hf-mirror（国内镜像）](https://hf-mirror.com/) | 绕开 Hugging Face 访问不稳 | 社区镜像 |
+| 获取模型 | [hf-mirror（国内镜像）](https://hf-mirror.com/) | Hugging Face 访问不稳时的国内镜像 | 社区镜像 |
 | 格式/量化 | [GGUF 格式说明](https://github.com/ggml-org/llama.cpp/blob/master/docs/gguf.md) | llama.cpp 专用、单文件易部署 | ggml-org |
 | 格式/量化 | [TheBloke（GGUF 量化集合）](https://huggingface.co/TheBloke) | 最常用 Q4_K_M / Q8_0 量化分发 | Hugging Face |
 | 环境配置 | [Ollama](https://ollama.com/) | 一行命令跑模型，新手首选 | Ollama |
@@ -135,7 +135,7 @@
 
 ## F. 已剔除的方向（本仓库不纳入主线）
 
-以下在原始 `meiliguodu/AI` 仓库中占比大，但**不符合本仓库"非从业者常识 + 演进 + 应用"定位**，仅作说明、不展开：人脸识别、计算机视觉专项、自动驾驶、量化交易、AI 虚拟主播/变现。如你后续需要，可另开专题。
+以下在原始 `meiliguodu/AI` 仓库中占比大，但**不符合本仓库"各领域从业者的常识 + 演进 + 应用"定位**，仅作说明、不展开：人脸识别、计算机视觉专项、自动驾驶、量化交易、AI 虚拟主播/变现。如你后续需要，可另开专题。
 
 ---
 
@@ -171,4 +171,4 @@
 | [3Blue1Brown《Attention》可视化（YouTube）](https://www.youtube.com/@3blue1brown) | 视频（Google / YouTube） | [cn-notes/05 · 3Blue1Brown 注意力与 GPT（译校）](cn-notes/05-3Blue1Brown注意力与GPT-译校.md) | 注意力 / Transformer 直觉天花板；原视频需梯子 |
 | Karpathy《Intro to Large Language Models》（YouTube 演讲） | 视频（Google / YouTube） | [cn-notes/06 · Karpathy LLM 导论（译校）](cn-notes/06-Karpathy-LLM导论-译校.md) | 原视频需梯子；译校版已提炼核心 |
 
-> 说明：A–G 区中的**其他英文源**（GitHub / arXiv / 厂商博客等）在大陆多数可直连或经镜像访问，**仅 Google / YouTube 系在本区单列**。若某英文源你本地打不开，优先查 `cn-notes/` 是否已有译校版。
+> 说明：A–G 区（含 E-1）中的**其他英文源**（GitHub / arXiv / 厂商博客等）在大陆多数可直连或经镜像访问，**仅 Google / YouTube 系在本区单列**。若某英文源你本地打不开，优先查 `cn-notes/` 是否已有译校版。

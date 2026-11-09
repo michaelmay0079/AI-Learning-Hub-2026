@@ -31,4 +31,4 @@ AI 不是突然出现的。把关键节点排成轴，你就能回答"为什么�
 
 ---
 
-**回到**：[README 矩阵](README.md) ｜ [资源索引](resources.md)
+**回到**：[README 主线地图](README.md) ｜ [资源索引](resources.md)

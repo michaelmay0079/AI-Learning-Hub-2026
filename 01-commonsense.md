@@ -1,6 +1,6 @@
-# 01 · 常识基础（Every non-practitioner should know）
+# 01 · 常识基础（Every practitioner across fields should know）
 
-> **本层目标**：让非从业者建立对 AI 的清醒常识——它是什么、从哪来、能/不能做什么。不碰公式，先建立"地图"与"体感"。对应早期路线的"阶段 0 + 阶段 1 的直觉铺垫"。
+> **本层目标**：让各领域从业者建立对 AI 的清醒常识——它是什么、从哪来、能/不能做什么。不碰公式，先建立"地图"与"体感"。
 > 📌 **双主线导航**：只想立刻"用起来"？可直达 [05·动手实操](05-动手实操.md) → [06·实战项目](06-实战项目.md)。本层与 02–04 为概念主线。
 
 ---
@@ -39,7 +39,7 @@
 **精选资源**
 - 🔴 [How I Would Learn AI in 2026（kumarvignesh）](https://kumarvignesh.com/2026/09/24/how-i-would-learn-ai-in-2026-a-guided-journey-from-analytics-to-agentic-ai/) — "先建立体感，再追演进"的典范路线。
 - 🔴 [The transformer era（miraheze 概念演进序列）](https://ai.miraheze.org/wiki/Learning_path:_The_transformer_era) — 从 token 到 MoE 的概念链。
-- 🟡 [演进时间轴（本仓库整理，注明出处）](../timeline.md) — 标注 DeepSeek R1 等关键节点。
+- 🟡 [演进时间轴（本仓库整理，注明出处）](timeline.md) — 标注 DeepSeek R1 等关键节点。
 
 **里程碑自测**
 - [ ] 能口述"规则→ML→DL→Transformer→大模型"的因果。
@@ -71,4 +71,4 @@
 
 ---
 
-**本层小结**：完成 01，你已具备"非从业者该有的 AI 常识"——知道它从哪来、能/不能做什么、为何当下是拐点。下一步进入 02 看"它内部怎么工作"。
+**本层小结**：完成 01，你已具备"各领域从业者该有的 AI 常识"——知道它从哪来、能/不能做什么、为何当下是拐点。下一步进入 02 看"它内部怎么工作"。
