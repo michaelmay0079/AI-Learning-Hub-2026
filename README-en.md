@@ -1,6 +1,6 @@
 # AI-Learning-Hub-2026
 
-> **One-line positioning**: A textbook-style, systematic AI learning hub for **non-AI practitioners** (with some programming background and logical thinking) — helping you build **common-sense foundations, advanced knowledge, frontier progress, and future outlook** of AI, understand "what AI can/cannot do, how, and why", and follow its evolution.
+> **One-line positioning**: A textbook-style, systematic AI learning hub that spans from **common-sense literacy for non-practitioners** to **hands-on geek / frontier practice**. Organized by a four-layer × three-dimension matrix, with frontier/geek content explicitly tagged "optional / experimental" so the structure keeps absorbing additions instead of being filled all at once. Helping you build **common-sense foundations, advanced knowledge, frontier progress, and future outlook** of AI, understand "what AI can/cannot do, how, and why", and follow its evolution.
 
 ---
 
@@ -15,9 +15,9 @@ Online material is **abundant but fragmented**; systematic, textbook-grade intro
 
 ## Audience & prerequisites
 
-- **Audience**: people with some basic programming (e.g., Python/R), logical thinking, but **not AI practitioners**.
-- **Goal**: understand AI's evolution, basic architecture, and common sense; judge "what AI can do, how, and why".
-- **No requirement**: deep math or ML background — we add math **just-in-time**, not as a systematic re-study.
+- **Default main-track audience**: people with some basic programming (e.g., Python/R), logical thinking, but **not AI practitioners** — the goal is to build AI common sense, architectural intuition, and a judgment framework without diving into engineering.
+- **Extended audience**: hands-on geeks / practitioners — the sections tagged "frontier / geek · optional" in the Frontier layer (e.g., local inference engines, personal-AI discussion) are for this group, to explore as needed.
+- **No requirement**: deep math or ML background — we add math **just-in-time**, not as a systematic re-study; the "optional"-tagged parts are not required either.
 
 ---
 
@@ -27,6 +27,7 @@ Online material is **abundant but fragmented**; systematic, textbook-grade intro
 2. **Anchor the evolution**: take **DeepSeek R1 (2025-01)** as the landmark anchor for the mass popularization and open-weight inflection point of AI in China; trace causality up and down rather than memorizing isolated terms.
 3. **Cite, don't copy**: for existing excellent collections (see "Upstream acknowledgments"), we **only link and attribute**, never copy their content; our explanations and curation are original.
 4. **Common sense first**: build a clear sense of "what can/cannot be done" before diving into principles; beware of hype.
+5. **Layer to absorb, don't fill**: content is explicitly tiered as "common-sense main track + frontier/optional branches" (see the "frontier / geek · optional" tags in each file). A knowledge base's value lies in whether its structure can keep absorbing later additions, not in covering every discussion at once.
 
 ---
 
@@ -70,6 +71,7 @@ For **selected key English materials**, we use a dual-track system:
 - **Systematic study**: follow 01→02→03→04 to build complete cognition.
 - **On-demand**: with programming background, jump to 02; for a rough overview, read only 01 and 04.
 - **Light hands-on**: throughout, "concept + tool experience" using ready-made APIs / Hugging Face / local small models; **no model training**; deep code dives marked 【optional】.
+- **Spot the branches**: sections tagged "frontier / geek · optional" (e.g., the local inference engines in 03, the personal-AI discussion in 04) are extensions of the main track, not required reading — take them according to interest and hands-on ability.
 
 ---
 
