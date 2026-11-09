@@ -48,6 +48,10 @@
 | 结构演进 | [Transformer Explained](https://mlforbeginners.com/what-is-a-transformer/) | 一张块图讲透组件 | ML for Beginners |
 | 用途扩展 | [CSDN 2025 LLM 路线图](https://devpress.csdn.net/v1/article/detail/154446381) | RAG/Agent/MCP 索引 | CSDN DevPress |
 | 用途扩展 | [Datawhale llm-universe](https://github.com/datawhalechina/llm-universe) | 应用/API/知识库/RAG | Datawhale |
+| 用途扩展 | [科普中国：检索增强生成 RAG](https://www.kepuchina.cn/article/articleinfo?ar_id=692437&business_type=100) | 通俗讲向量库/Embedding/减幻觉 | 科普中国 |
+| 用途扩展 | [科普中国：AI 智能体 Agent](https://www.kepuchina.cn/article/articleinfo?ar_id=689885&business_type=100) | 六模块与闭环 | 科普中国 |
+| 用途扩展 | [Model Context Protocol 官方文档](https://modelcontextprotocol.io/) | MCP 标准/"AI 的 USB-C" | Anthropic（开放协议） |
+| 用途扩展 | [What Are AI Agents?（入门）](https://www.mehulprajapati.com/?p=822) | Agent vs 工作流/ReAct | Mehul Prajapati |
 
 ---
 

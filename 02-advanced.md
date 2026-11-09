@@ -58,6 +58,7 @@
 **核心要点**
 - **RAG（检索增强生成）**：向量库 + LLM，先检索再生成，**显著减幻觉、可接私有知识**（如你的文献）。
 - **Agent（智能体）**：规划 + 记忆 + 工具调用 + 行动 四模块；能自主拆任务、调工具。
+- **Agent 的边界**：Agent ≠ 聊天机器人（只回答）≠ 固定工作流（按预设步骤）。Agent 自主决定"下一步 + 调什么工具"（ReAct：推理→行动→观察 循环）；但生产中更常见的是"少量 agentic 步骤 + 可控工作流"，更易测试与把关。
 - **MCP（模型上下文协议，Anthropic 提出）**：让模型安全连接外部工具，类似"AI 的 USB-C"。
 - **多模态**：文本/图像/语音联合（概念级，非训练）。
 - **科研者落地（重点）**：文献综述辅助、写作/润色、数据分析思路、代码助手、图表解读。
@@ -66,6 +67,10 @@
 - 🔴 [CSDN 2025 LLM 路线图（RAG/Agent/MCP 章节）](https://devpress.csdn.net/v1/article/detail/154446381) — 结构化索引。出处：CSDN DevPress。
 - 🔴 [llm-universe（Datawhale）](https://github.com/datawhalechina/llm-universe) — 新手做应用/API/知识库/RAG。出处：Datawhale。
 - 🟡 [llm-cookbook（Datawhale，吴恩达课中文改编）](https://github.com/datawhalechina/llm-cookbook) — Prompt→RAG→微调全流程。出处：Datawhale。
+- 🟡 [科普中国：检索增强生成（RAG）](https://www.kepuchina.cn/article/articleinfo?ar_id=692437&business_type=100) — 通俗讲清向量库 / Embedding / 如何减幻觉。出处：科普中国。
+- 🟡 [科普中国：AI 智能体（Agent）是什么](https://www.kepuchina.cn/article/articleinfo?ar_id=689885&business_type=100) — 智能体六模块与闭环，为何是下一代形态。出处：科普中国。
+- 🟡 [Model Context Protocol 官方文档](https://modelcontextprotocol.io/) — MCP 标准与"AI 的 USB-C"定位（Anthropic 开放协议）。出处：Anthropic。
+- 🟡 [What Are AI Agents?（入门）](https://www.mehulprajapati.com/?p=822) — Agent vs 聊天机器人 vs 工作流、ReAct 模式。出处：Mehul Prajapati。
 - 🟢 实践：把一篇你的 PDF 文献喂给支持"上传文档"的助手，问"方法缺陷是什么"，验证检索准确性。
 
 **里程碑自测**
