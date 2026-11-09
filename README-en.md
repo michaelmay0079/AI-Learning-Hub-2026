@@ -52,6 +52,7 @@ Four layers (depth) × three dimensions (slices):
 - [04 · Future outlook](04-outlook.md) (incl. "Personal AI vs centralized cloud" discussion)
 - [05 · Hands-on practice](05-动手实操.md) (practical track: model acquisition / environment / Agent / prompting / RAG)
 - [06 · Capstone projects](06-实战项目.md) (practical track: build a personal "external brain" with dsh)
+- [07 · Self-iteration & self-construction](07-自迭代与自构建.md) (exploration track, unverified: isolate / archive / rollback / out-of-band management)
 - [Resources index](resources.md) (curated by module, with attribution and verification dates)
 - [Evolution timeline](timeline.md) (attributed)
 - [Learning paths (LEARNING-PATHS)](LEARNING-PATHS.md) (vertical recommended order)

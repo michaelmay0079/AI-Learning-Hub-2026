@@ -172,3 +172,18 @@
 | Karpathy《Intro to Large Language Models》（YouTube 演讲） | 视频（Google / YouTube） | [cn-notes/06 · Karpathy LLM 导论（译校）](cn-notes/06-Karpathy-LLM导论-译校.md) | 原视频需梯子；译校版已提炼核心 |
 
 > 说明：A–G 区（含 E-1）中的**其他英文源**（GitHub / arXiv / 厂商博客等）在大陆多数可直连或经镜像访问，**仅 Google / YouTube 系在本区单列**。若某英文源你本地打不开，优先查 `cn-notes/` 是否已有译校版。
+
+---
+
+## I. 探索线资源（07 · 未验证构想）
+
+> [07·自迭代与自构建](07-自迭代与自构建.md) 用到的工具/方向。**本节所列仅为"可去了解"，不代表其能力宣传已被核实**；标【未核实】者尤须自行判断。
+
+| 方向 | 资源 | 一句话 | 出处 |
+|---|---|---|---|
+| 自优化 Agent 框架 | [LobeHub](https://lobehub.com/) | 开源 AI 应用/Agent 平台；其"self-evolving harness"说法【未核实】 | LobeHub |
+| 虚拟化（A 机替身） | [QEMU](https://www.qemu.org/) | 可跑"裸机级"虚拟环境，适合测精简内核 | QEMU |
+| 极简发行版 | [Alpine Linux](https://alpinelinux.org/) | 体积小，常作最小系统实验底座 | Alpine |
+| 带外管理 | [PiKVM](https://pikvm.org/) | 开源 IP-KVM，远程键鼠+屏幕，救"变砖" | PiKVM |
+
+> 注：07 为**未验证探索线**，上述仅为"若要实验可从哪入手"，不构成可行性背书。
