@@ -123,5 +123,9 @@
 | [06 · Karpathy LLM 导论](cn-notes/06-Karpathy-LLM导论-译校.md) | Intro to Large Language Models | A. Karpathy |
 | [07 · Attention Is All You Need 精要](cn-notes/07-AttentionIsAllYouNeed-精要-译校.md) | Attention Is All You Need (arXiv:1706.03762) | Vaswani et al. |
 | [08 · Awesome 清单导读](cn-notes/08-Awesome清单导读-译校.md) | Hannibal046 / XiaomingX / ifLabX / josephmisiti 等 | 各原作者 |
+| [09 · 深度研究 Agent](cn-notes/09-深度研究Agent-译校.md) | Deep Research Agents 2026 + BrowseComp/HLE | blocksize / OpenAI |
+| [10 · 编码 Agent 与 SWE-bench](cn-notes/10-编码Agent与SWE-bench-译校.md) | SWE-bench 官方榜 + 分数解读 | SWE-bench / codeant |
+| [11 · 端侧与模型量化](cn-notes/11-端侧与模型量化-译校.md) | On-Device LLM Inference + The Memory Wall | adhdecode / utilix |
+| [12 · AI 对齐与伦理](cn-notes/12-AI对齐与伦理-译校.md) | Claude 宪法(CC0) + AI 对齐是什么 | Anthropic / 00011000 |
 
 > 译校版为学习向提炼/改编，非逐字翻译；版权归原作者。
