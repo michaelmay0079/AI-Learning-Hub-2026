@@ -106,6 +106,31 @@
 
 ---
 
+## E-1. 动手实操资源（05 · 核验 2026-11-09）
+
+与 01–04 概念主线并行的**实操主线**所用工具/平台。具体步骤见 [05 · 动手实操](05-动手实操.md)；此处给出可点选的资源与出处。涉及工具迭代极快，以各项目最新文档为准。
+
+| 模块 | 资源 | 一句话 | 出处 |
+|---|---|---|---|
+| 获取模型 | [Hugging Face Hub](https://huggingface.co/models) | 全球最大权重仓库（GGUF / Safetensors） | Hugging Face |
+| 获取模型 | [ModelScope 魔搭（🟢 中文源）](https://modelscope.cn/models) | 阿里系，大陆直连友好 | 阿里达摩院 |
+| 获取模型 | [hf-mirror（国内镜像）](https://hf-mirror.com/) | 绕开 Hugging Face 访问不稳 | 社区镜像 |
+| 格式/量化 | [GGUF 格式说明](https://github.com/ggml-org/llama.cpp/blob/master/docs/gguf.md) | llama.cpp 专用、单文件易部署 | ggml-org |
+| 格式/量化 | [TheBloke（GGUF 量化集合）](https://huggingface.co/TheBloke) | 最常用 Q4_K_M / Q8_0 量化分发 | Hugging Face |
+| 环境配置 | [Ollama](https://ollama.com/) | 一行命令跑模型，新手首选 | Ollama |
+| 环境配置 | [LM Studio](https://lmstudio.ai/) | 图形界面下载 / 聊天 / 本地 API | LM Studio |
+| 环境配置 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | 跨平台推理引擎，量化鼻祖 | ggml-org (MIT) |
+| 环境配置 | [vLLM](https://github.com/vllm-project/vllm) | 高吞吐 GPU 服务部署 | vLLM Project |
+| Agent 组装 | [Model Context Protocol](https://modelcontextprotocol.io/) | 工具/外部调用标准（亦见 C 区） | Anthropic |
+| Agent 组装 | [Home Assistant](https://www.home-assistant.io/) | 本地可控的智能家居"手"示例 | Home Assistant |
+| RAG | [AnythingLLM](https://anythingllm.com/) | 桌面 / 私有化知识库一体 | Mintplex |
+| RAG | [Dify](https://dify.ai/) | 可视化搭建 RAG / Agent 工作流 | Dify |
+| 微调 | [QLoRA 论文（arXiv:2305.14314）](https://arxiv.org/abs/2305.14314) | 单 48GB GPU 微调 65B 的方法 | Dettmers et al. |
+
+> 注：Ollama / llama.cpp / HF / MCP / Learn Prompting 等在 C、D 区已出现，此处按"实操主线"重新归并，便于从 05 一键取用。
+
+---
+
 ## F. 已剔除的方向（本仓库不纳入主线）
 
 以下在原始 `meiliguodu/AI` 仓库中占比大，但**不符合本仓库"非从业者常识 + 演进 + 应用"定位**，仅作说明、不展开：人脸识别、计算机视觉专项、自动驾驶、量化交易、AI 虚拟主播/变现。如你后续需要，可另开专题。
