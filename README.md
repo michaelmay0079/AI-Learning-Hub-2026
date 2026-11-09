@@ -53,6 +53,7 @@
 - [04 · 未来展望](04-outlook.md)
 - [资源索引](resources.md)（按模块精选，注明出处与核验日期）
 - [演进时间轴](timeline.md)（注明出处）
+- [学习路径索引（LEARNING-PATHS）](LEARNING-PATHS.md)（纵切推荐顺序）
 - [中文译校资料（cn-notes/）](cn-notes/)（精选英文材料的中文译校版，已译校 8 篇）
 
 ---
