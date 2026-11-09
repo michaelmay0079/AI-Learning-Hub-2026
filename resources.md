@@ -68,6 +68,9 @@
 | 用途扩展 | [Chatbot Arena](https://lmarena.ai/) | 盲测榜单 | LMSYS |
 | 用途扩展 | [OpenCompass](https://opencompass.org.cn/) | 多维评测 | OpenCompass |
 | 用途扩展 | [LiveBench](https://livebench.ai/) | 防刷榜动态基准 | LiveBench |
+| 用途扩展 | [Deep Research Agents 2026（综述）](https://ai.blocksize.hr/blog/en/deep-research-ai-agents-2026) | 原理/基准/成本/失败模式 | blocksize |
+| 用途扩展 | [SWE-bench 官方榜单](https://www.swebench.com/) | 编码 Agent 权威榜单 | SWE-bench |
+| 用途扩展 | [SWE-bench 分数解读（含污染警示）](https://www.codeant.ai/blogs/swe-bench-scores) | Verified vs Pro 差距 | codeant |
 
 ### D-1. 本地推理引擎（03·编程基础延伸 · 核验 2026-11-09）
 
@@ -91,7 +94,12 @@
 | 编程基础 | [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 真实 AI 应用范例 | Shubhamsaboo |
 | 结构演进 | [llmbook-zh](https://llmbook-zh.github.io/) | 中文权威教材（含前沿） | 高教社 |
 | 结构演进 | [Awesome-Multimodal-LLM](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models) | 多模态前沿索引 | BradyFU |
+| 结构演进 | [On-Device LLM Inference 深度解析](https://adhdecode.com/edge-computing/edge-ai-and-ml-inference/on-device-llm-inference) | 内存/KV Cache/量化实操 | adhdecode |
+| 结构演进 | [端侧 AI 元年（中文）](https://zicode.com/blog/edge-ai-year-agent-on-device) | 内存带宽瓶颈 + 端云协同 | zicode |
+| 结构演进 | [The Memory Wall（量化格式对比）](https://www.utilix.tech/blog/on-device-llm-inference-memory-bandwidth-wall) | FP16/INT8/INT4 取舍 | utilix |
 | 用途扩展 | [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) | 全景"地图的地图" | josephmisiti |
+| 用途扩展 | [AI 对齐是什么（中文）](https://00011000.com/wiki/alignment) | RLHF/CAI/内外层对齐 | 00011000 |
+| 用途扩展 | [Claude 宪法（Anthropic，CC0）](https://www.anthropic.com/constitution) | 原则式对齐一手范例 | Anthropic |
 
 ---
 
