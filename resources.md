@@ -62,6 +62,19 @@
 | 用途扩展 | [OpenCompass](https://opencompass.org.cn/) | 多维评测 | OpenCompass |
 | 用途扩展 | [LiveBench](https://livebench.ai/) | 防刷榜动态基准 | LiveBench |
 
+### D-1. 本地推理引擎（03·编程基础延伸 · 核验 2026-11-09）
+
+将超大模型塞进有限硬件的真实开源项目，按"资源调度策略"分类（均 Apache-2.0 / MIT）。
+
+| 项目 | 策略 | 代表能力 | 出处 / 许可 |
+|---|---|---|---|
+| [Colibri](https://github.com/JustVugg/colibri) | 磁盘流式 + 学习型缓存 | 25GB RAM 无显卡跑 744B MoE | JustVugg（Apache-2.0） |
+| [Strata](https://github.com/Niko1221/Strata) | 显存/内存/SSD 三级分层 + CPU/GPU 并行 | 12GB 显存跑 125B | Niko Veit（MIT） |
+| [AirLLM](https://github.com/lyogavin/airllm) | 逐层加载，显存只留一层 | 4GB 显存跑 70B | lyogavin（Apache-2.0） |
+| [kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 纯 C99 底层手搓，专家现读现算 | 8.24GB RAM 跑 2.78T（Kimi K3） | FareedKhan-dev（Apache-2.0） |
+
+> 核验说明：上述参数为各项目 README / 社区实测（2026-11-09）。此类项目迭代极快，使用前请以仓库最新状态为准。
+
 ---
 
 ## E. 未来展望（04）
