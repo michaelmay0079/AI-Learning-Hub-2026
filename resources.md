@@ -106,9 +106,9 @@
 
 ---
 
-## E-1. 动手实操资源（05 · 核验 2026-11-09）
+## E-1. 动手实操 / 实战资源（05–06 · 核验 2026-11-09）
 
-与 01–04 概念主线并行的**实操主线**所用工具/平台。具体步骤见 [05 · 动手实操](05-动手实操.md)；此处给出可点选的资源与出处。涉及工具迭代极快，以各项目最新文档为准。
+与 01–04 概念主线并行的**实操主线**所用工具/平台。具体步骤见 [05 · 动手实操](05-动手实操.md) 与 [06 · 实战项目](06-实战项目.md)；此处给出可点选的资源与出处。涉及工具迭代极快，以各项目最新文档为准。
 
 | 模块 | 资源 | 一句话 | 出处 |
 |---|---|---|---|
@@ -126,8 +126,10 @@
 | RAG | [AnythingLLM](https://anythingllm.com/) | 桌面 / 私有化知识库一体 | Mintplex |
 | RAG | [Dify](https://dify.ai/) | 可视化搭建 RAG / Agent 工作流 | Dify |
 | 微调 | [QLoRA 论文（arXiv:2305.14314）](https://arxiv.org/abs/2305.14314) | 单 48GB GPU 微调 65B 的方法 | Dettmers et al. |
+| 实战·外置智脑 | [DeepSeek Harness (dsh)](https://github.com/deepseek-ai/deepseek-harness) | 一切皆插件的开源 agent harness，MIT；`npx @deepseek-ai/dsh web` 起本地 UI | deepseek-ai |
+| 实战·插件生态 | [awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | dsh 插件精选列表（社区维护） | 社区 |
 
-> 注：Ollama / llama.cpp / HF / MCP / Learn Prompting 等在 C、D 区已出现，此处按"实操主线"重新归并，便于从 05 一键取用。
+> 注：Ollama / llama.cpp / HF / MCP / Learn Prompting 等在 C、D 区已出现，此处按"实操主线"重新归并，便于从 05/06 一键取用。dsh 仍为**开发者预览**（官方明示会有破坏兼容性的变更），以其官方 README 为准。
 
 ---
 
