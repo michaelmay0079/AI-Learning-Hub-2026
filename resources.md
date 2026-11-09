@@ -29,6 +29,9 @@
 | 结构演进 | [The transformer era](https://ai.miraheze.org/wiki/Learning_path:_The_transformer_era) | 概念演进序列 | AI Wiki |
 | 用途扩展 | [DeepSeek-R1 架构解析](https://cloud.baidu.com/article/4953201) | 含"独立评测"示范 | 百度智能云 |
 | 用途扩展 | [Built In: What Is DeepSeek-R1?](https://builtin.com/artificial-intelligence/deepseek-r1) | 含 benchmark 对比 | Built In |
+| 用途扩展 | [科普中国：AI 幻觉是怎么回事](https://www.kepuchina.cn/article/articleinfo?ar_id=713465&business_type=100) | 通俗讲"幻觉"成因与应对 | 科普中国 |
+| 用途扩展 | [人民网：AI 一本正经胡说八道](https://opinion.people.com.cn/n1/2025/0702/c1003-40512875.html) | 权威媒体谈幻觉与 AI 素养 | 人民网 |
+| 用途扩展 | [科普中国：解开 AI 的六个迷思](https://www.kepuchina.cn/article/articleinfo?ar_id=50709&business_type=100) | 常见误区（替代/中立/自行学习） | 科普中国 |
 
 ---
 
