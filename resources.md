@@ -100,6 +100,7 @@
 | 用途扩展 | [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning) | 全景"地图的地图" | josephmisiti |
 | 用途扩展 | [AI 对齐是什么（中文）](https://00011000.com/wiki/alignment) | RLHF/CAI/内外层对齐 | 00011000 |
 | 用途扩展 | [Claude 宪法（Anthropic，CC0）](https://www.anthropic.com/constitution) | 原则式对齐一手范例 | Anthropic |
+| 用途扩展 | [柏拉图表征假设（arXiv:2405.07987）](https://arxiv.org/abs/2405.07987) | 不同模型是否趋近同一高维表示 | Huh et al. (MIT) |
 
 ---
 
