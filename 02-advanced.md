@@ -39,7 +39,7 @@
 
 **精选资源**
 - 🔴 [Illustrated Transformer（Jay Alammar）](https://jalammar.github.io/illustrated-transformer/) — 最清晰可视化走读。出处：Jay Alammar。
-- 🔴 [3Blue1Brown《Attention》可视化](https://www.youtube.com/@3blue1brown) — 直觉天花板。出处：3Blue1Brown。
+- 🔴 [3Blue1Brown《Attention》可视化](https://www.youtube.com/@3blue1brown) — 直觉天花板。**需境外网络（YouTube）；中文讲解见 [cn-notes/05](cn-notes/05-3Blue1Brown注意力与GPT-译校.md)**。出处：3Blue1Brown。
 - 🔴 [Attention Is All You Need（arXiv:1706.03762）](https://arxiv.org/abs/1706.03762) — 原论文，读摘要与架构图即可。
 - 🟡 [Transformer Explained（mlforbeginners）](https://mlforbeginners.com/what-is-a-transformer/) — 一张块图讲透组件。出处：ML for Beginners。
 - 🟢 实践：在纸上推演"机器人打开房门，它走进房间"里"它"的注意力应指向谁。

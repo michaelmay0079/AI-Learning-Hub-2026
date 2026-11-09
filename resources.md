@@ -2,6 +2,8 @@
 
 > **使用说明**：本索引按本仓库矩阵（层 × 维）组织。所有链接**核验日期：2026-11-09**。视频类（3Blue1Brown / Karpathy）若失效，按标题在对应频道检索最新版本。我们对上游合集**只链接、不复制**；他人资源保留其原许可。
 
+> **中英文与可达性说明**：本索引含 **🟢 中文源**（如科普中国、人民网、百度智能云、Datawhale、zicode）与 **🌐 英文 / 境外源**。中文源可大陆直连；英文源在大陆访问可能**需要境外网络（梯子）**，其中 **Google / YouTube 系（如 3Blue1Brown 频道）在大陆无法直接打开**。对此类资源，本仓库已在 [`cn-notes/`](cn-notes/) 提供**中文译校版**（见 G 区与 H 区），无需梯子即可阅读。下方各表行尾标注 **「需梯子」** 者即大陆直连受限。
+
 ---
 
 ## A. 上游总入口（先 Bookmark 这些）
@@ -43,7 +45,7 @@
 | 编程基础 | [Ollama](https://ollama.com/) | 本地跑 LLM 入门 | Ollama |
 | 编程基础 | [llama.cpp](https://github.com/ggml-org/llama.cpp) | 理解量化与推理 | ggml-org (MIT) |
 | 结构演进 | [Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) | 最清晰可视化走读 | Jay Alammar |
-| 结构演进 | [3Blue1Brown《Attention》](https://www.youtube.com/@3blue1brown) | 注意力直觉天花板 | 3Blue1Brown |
+| 结构演进 | [3Blue1Brown《Attention》](https://www.youtube.com/@3blue1brown) | 注意力直觉天花板（**需梯子 · YouTube**；中文见 cn-notes/05） | 3Blue1Brown |
 | 结构演进 | [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | Transformer 原论文 | arXiv |
 | 结构演进 | [Transformer Explained](https://mlforbeginners.com/what-is-a-transformer/) | 一张块图讲透组件 | ML for Beginners |
 | 用途扩展 | [CSDN 2025 LLM 路线图](https://devpress.csdn.net/v1/article/detail/154446381) | RAG/Agent/MCP 索引 | CSDN DevPress |
@@ -130,3 +132,16 @@
 | [12 · AI 对齐与伦理](cn-notes/12-AI对齐与伦理-译校.md) | Claude 宪法(CC0) + AI 对齐是什么 | Anthropic / 00011000 |
 
 > 译校版为学习向提炼/改编，非逐字翻译；版权归原作者。
+
+---
+
+## H. 境外 / 需梯子资源（Google、YouTube 等，大陆直连受限）
+
+> 下列资源因位于 **Google / YouTube 等境外服务**，在大陆**无法直接打开**。本仓库已就关键项提供**中文译校版**（见上方 G 区），无需梯子即可阅读；其余请按需使用境外网络访问。
+
+| 资源 | 类型 | 中文替代（无需梯子） | 备注 |
+|---|---|---|---|
+| [3Blue1Brown《Attention》可视化（YouTube）](https://www.youtube.com/@3blue1brown) | 视频（Google / YouTube） | [cn-notes/05 · 3Blue1Brown 注意力与 GPT（译校）](cn-notes/05-3Blue1Brown注意力与GPT-译校.md) | 注意力 / Transformer 直觉天花板；原视频需梯子 |
+| Karpathy《Intro to Large Language Models》（YouTube 演讲） | 视频（Google / YouTube） | [cn-notes/06 · Karpathy LLM 导论（译校）](cn-notes/06-Karpathy-LLM导论-译校.md) | 原视频需梯子；译校版已提炼核心 |
+
+> 说明：A–G 区中的**其他英文源**（GitHub / arXiv / 厂商博客等）在大陆多数可直连或经镜像访问，**仅 Google / YouTube 系在本区单列**。若某英文源你本地打不开，优先查 `cn-notes/` 是否已有译校版。
