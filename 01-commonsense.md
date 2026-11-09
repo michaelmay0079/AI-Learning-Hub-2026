@@ -1,4 +1,4 @@
-# 01 · 常识基础（Every practitioner across fields should know）
+# 01 · 常识基础（先建立 AI 常识）
 
 > **本层目标**：让各领域从业者建立对 AI 的清醒常识——它是什么、从哪来、能/不能做什么。不碰公式，先建立"地图"与"体感"。
 > 📌 **双主线导航**：只想立刻"用起来"？可直达 [05·动手实操](05-动手实操.md) → [06·实战项目](06-实战项目.md)。本层与 02–04 为概念主线。
@@ -35,6 +35,11 @@
 - **三要素**：算力（GPU）、数据（海量语料）、算法（架构+训练法）同时成熟，才引爆当下。
 - **关键拐点**：ChatGPT（2022，大众认知） → GPT-4（2023，多模态） → **DeepSeek R1（2025-01，开源+推理模型+低成本，国内普及分水岭）**。
 - **一句话锚点**：DeepSeek R1 的意义不在"又强了一点"，而在"开源权重 + 推理范式 + 低成本"三件套，让研究者/个人也能站在前沿。
+
+```mermaid
+flowchart LR
+  A["规则系统"] --> B["机器学习<br/>数据驱动"] --> C["深度学习<br/>神经网络"] --> D["Transformer<br/>2017"] --> E["大模型<br/>规模化"] --> F["推理模型<br/>DeepSeek R1 等"]
+```
 
 **精选资源**
 - 🔴 [How I Would Learn AI in 2026（kumarvignesh）](https://kumarvignesh.com/2026/09/24/how-i-would-learn-ai-in-2026-a-guided-journey-from-analytics-to-agentic-ai/) — "先建立体感，再追演进"的典范路线。

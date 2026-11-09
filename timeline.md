@@ -1,4 +1,4 @@
-# 演进时间轴（Evolution Timeline）
+# 演进时间轴
 
 > **来源说明**：本时间轴基于 [XiaomingX/awesome-llm](https://github.com/XiaomingX/awesome-llm) 的演进脉络整理并补充，已注明出处。本仓库仅做"链接 + 整理"，不复制其详细内容。核验日期：2026-11-09。
 

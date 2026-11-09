@@ -38,6 +38,16 @@
 - **三阶段训练**：**预训练**（海量语料学语言） → **微调/指令微调**（学任务） → **对齐 RLHF**（学"有用无害"）。
 - **MoE 初探**：混合专家——总参大、激活小（为 03 的 DeepSeek R1 铺垫）。
 
+```mermaid
+flowchart LR
+  T["文本"] --> TK["分词<br/>Tokenization"] --> EM["嵌入<br/>Embedding"] --> AT["注意力<br/>Q / K / V"] --> BL["Transformer 块<br/>注意力 + 前馈 + 残差 / 归一化"] --> OP["输出"]
+```
+
+```mermaid
+flowchart LR
+  P["预训练<br/>学语言"] --> FT["微调 / 指令微调<br/>学任务"] --> RL["对齐 RLHF<br/>学「有用无害」"]
+```
+
 **精选资源**
 - 🔴 [Illustrated Transformer（Jay Alammar）](https://jalammar.github.io/illustrated-transformer/) — 最清晰可视化走读。出处：Jay Alammar。
 - 🔴 [3Blue1Brown《Attention》可视化](https://www.youtube.com/@3blue1brown) — 直觉天花板。**需境外网络（YouTube）；中文讲解见 [cn-notes/05](cn-notes/05-3Blue1Brown注意力与GPT-译校.md)**。出处：3Blue1Brown。
